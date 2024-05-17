@@ -512,7 +512,54 @@
 </div>
 </div>
 <div class="col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1s" data-wow-offset="200">
+<form data-toggle="validator" id="contact-form" role="form" action="https://viswa2k.tk/formhandler.php">
+<div class="form-intro">
+<h4>Leave Me A Message</h4>
+<div class="separator"></div>
+<p class="para">You can ask me about anything here, just type your name and e-mail and I'll answer you as soon as possible</p>
+</div>
+<div class="form-group">
+<div class="input-group">
+<label for="name" class="input-group-addon">
+<span class="glyphicon glyphicon-user"></span>
+</label>
+<input type="text" placeholder="Your Name" class="form-control col-xs-12" id="name" name="name" data-error="Please enter a correct name." required>
+</div>
+<span class="help-block with-errors"></span>
+</div>
+<div class="form-group">
+<div class="input-group">
+<label for="mail" class="input-group-addon">
+<span class="glyphicon glyphicon-envelope"></span>
+</label>
+<input type="email" placeholder="Your E-mail" class="form-control col-xs-12" id="mail" name="mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" data-error="Please enter a correct E-mail." required>
+</div>
+<span class="help-block with-errors"></span>
+</div>
+<div class="form-group">
+<div class="input-group">
+<label for="name" class="input-group-addon">
+<span class="glyphicon glyphicon-book"></span>
+</label>
+<input type="text" placeholder="Subject" class="form-control col-xs-12" id="subject" name="subject" data-error="Please enter subject." required>
+</div>
+<span class="help-block with-errors"></span>
+</div>
+<div class="form-group">
+<div class="input-group">
+<label for="message" class="input-group-addon
 
+<span class="glyphicon glyphicon-comment"></span>
+</label>
+<textarea class="form-control" rows="4" id="message" name="message" placeholder="Type your message" data-error="Please enter your message" required></textarea>
+
+</div>
+<span class="help-block with-errors"></span>
+</div>
+<div>
+<button type="submit" id="submit" class="btn btn-custom btn-block">Send Message</button>
+</div>
+</form>
 
 
 <div class="form-response">&nbsp;</div>
