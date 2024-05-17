@@ -225,7 +225,7 @@
 			16 - Typed Text in Home Section
 	----------------------------------------------------- */
 	$(".typed-element").typed({
-    	strings: ["RPA Developer.","MCA Graduate.", "Fresher"],
+    	strings: ["RPA-AA Developer.","Certified in Automation Anywhere/UI Path"],
     	typeSpeed: 30,
     	loop:true,
     	backDelay: 3000
